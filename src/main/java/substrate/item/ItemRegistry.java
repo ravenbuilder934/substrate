@@ -30,4 +30,11 @@ public class ItemRegistry
     public static final RegistryObject<BlockItem> castironbeam_item = ITEMS.register("castironbeam", () -> new BlockItem(castironbeam.get(), new Item.Properties().tab(ItemGroup.TAB_DECORATIONS)));
     public static final RegistryObject<BlockItem> rustybeam_item = ITEMS.register("rustybeam", () -> new BlockItem(rustybeam.get(), new Item.Properties().tab(ItemGroup.TAB_DECORATIONS)));
     public static final RegistryObject<BlockItem> ironbeam_item = ITEMS.register("ironbeam", () -> new BlockItem(ironbeam.get(), new Item.Properties().tab(ItemGroup.TAB_DECORATIONS)));
+
+    public static final RegistryObject<BlockItem> coppergrating_item = ITEMS.register("coppergrating", () -> new BlockItem(coppergrating.get(), new Item.Properties().tab(ItemGroup.TAB_DECORATIONS)));
+    public static final RegistryObject<BlockItem> aluminiumgrating_item = ITEMS.register("aluminiumgrating", () -> new BlockItem(aluminiumgrating.get(), new Item.Properties().tab(ItemGroup.TAB_DECORATIONS)));
+    public static final RegistryObject<BlockItem> steelgrating_item = ITEMS.register("steelgrating", () -> new BlockItem(steelgrating.get(), new Item.Properties().tab(ItemGroup.TAB_DECORATIONS)));
+    public static final RegistryObject<BlockItem> castirongrating_item = ITEMS.register("castirongrating", () -> new BlockItem(castirongrating.get(), new Item.Properties().tab(ItemGroup.TAB_DECORATIONS)));
+    public static final RegistryObject<BlockItem> rustygrating_item = ITEMS.register("rustygrating", () -> new BlockItem(rustygrating.get(), new Item.Properties().tab(ItemGroup.TAB_DECORATIONS)));
+    public static final RegistryObject<BlockItem> irongrating_item = ITEMS.register("irongrating", () -> new BlockItem(irongrating.get(), new Item.Properties().tab(ItemGroup.TAB_DECORATIONS)));
 }

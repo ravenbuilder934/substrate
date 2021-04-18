@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "substrate:block/rustygrating_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "substrate:block/rustygrating"
+    },
+    "axis=z": {
+      "model": "substrate:block/rustygrating_horizontal",
+      "x": 90
+    }
+  }
+}

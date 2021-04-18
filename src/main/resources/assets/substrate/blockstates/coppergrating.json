@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "substrate:block/coppergrating_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "substrate:block/coppergrating"
+    },
+    "axis=z": {
+      "model": "substrate:block/coppergrating_horizontal",
+      "x": 90
+    }
+  }
+}

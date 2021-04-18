@@ -7,6 +7,8 @@ import net.minecraft.world.IBlockReader;
 
 public class Util
 {
+    public static final String MOD_ID = "substrate";
+
     /**
      * Used when registering the trapdoor blocks. Makes sure mobs don't spawn on them
      */
@@ -14,6 +16,4 @@ public class Util
     {
         return false;
     }
-
-    public static final String MOD_ID = "substrate";
 }

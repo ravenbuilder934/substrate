@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "substrate:block/rustygratingslab"
+    },
+    "type=double": {
+      "model": "substrate:block/rustygrating"
+    },
+    "type=top": {
+      "model": "substrate:block/rustygratingslab_top"
+    }
+  }
+}

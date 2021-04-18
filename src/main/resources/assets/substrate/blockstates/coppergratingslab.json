@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "substrate:block/coppergratingslab"
+    },
+    "type=double": {
+      "model": "substrate:block/coppergrating"
+    },
+    "type=top": {
+      "model": "substrate:block/coppergratingslab_top"
+    }
+  }
+}

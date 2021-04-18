@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "substrate:block/irongratingslab"
+    },
+    "type=double": {
+      "model": "substrate:block/irongrating"
+    },
+    "type=top": {
+      "model": "substrate:block/irongratingslab_top"
+    }
+  }
+}

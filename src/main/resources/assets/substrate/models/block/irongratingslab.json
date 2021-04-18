@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "substrate:block/grating/grating_iron_top",
+    "top": "substrate:block/grating/grating_iron_top",
+    "side": "substrate:block/grating/grating_iron"
+  }
+}

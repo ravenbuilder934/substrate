@@ -38,4 +38,11 @@ public class ItemRegistry
     public static final RegistryObject<BlockItem> irongrating_item = ITEMS.register("irongrating", () -> new BlockItem(irongrating.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> rustygrating_item = ITEMS.register("rustygrating", () -> new BlockItem(rustygrating.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> steelgrating_item = ITEMS.register("steelgrating", () -> new BlockItem(steelgrating.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+
+    public static final RegistryObject<BlockItem> aluminiumgratingslab_item = ITEMS.register("aluminiumgratingslab", () -> new BlockItem(aluminiumgratingslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> castirongratingslab_item = ITEMS.register("castirongratingslab", () -> new BlockItem(castirongratingslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> coppergratingslab_item = ITEMS.register("coppergratingslab", () -> new BlockItem(coppergratingslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> irongratingslab_item = ITEMS.register("irongratingslab", () -> new BlockItem(irongratingslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> rustygratingslab_item = ITEMS.register("rustygratingslab", () -> new BlockItem(rustygratingslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> steelgratingslab_item = ITEMS.register("steelgratingslab", () -> new BlockItem(steelgratingslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
 }

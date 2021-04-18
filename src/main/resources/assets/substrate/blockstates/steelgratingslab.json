@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "substrate:block/steelgratingslab"
+    },
+    "type=double": {
+      "model": "substrate:block/steelgrating"
+    },
+    "type=top": {
+      "model": "substrate:block/steelgratingslab_top"
+    }
+  }
+}

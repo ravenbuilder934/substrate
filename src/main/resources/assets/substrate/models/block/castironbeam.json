@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "substrate:block/beam/beam_castiron_top",
+    "side": "substrate:block/beam/beam_castiron"
+  }
+}

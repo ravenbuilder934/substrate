@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "substrate:block/door/door_upper_aluminium",
+    "bottom": "substrate:block/door/door_lower_aluminium"
+  }
+}

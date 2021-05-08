@@ -47,4 +47,31 @@ public class ItemRegistry
     public static final RegistryObject<BlockItem> irongratingslab_item = ITEMS.register("irongratingslab", () -> new BlockItem(irongratingslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> rustygratingslab_item = ITEMS.register("rustygratingslab", () -> new BlockItem(rustygratingslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> steelgratingslab_item = ITEMS.register("steelgratingslab", () -> new BlockItem(steelgratingslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+
+    /*
+    public static final RegistryObject<BlockItem> aluminiumgratingstairs_item = ITEMS.register("aluminiumgratingstairs", () -> new BlockItem(aluminiumgratingstairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> castirongratingstairs_item = ITEMS.register("castirongratingstairs", () -> new BlockItem(castirongratingstairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> coppergratingstairs_item = ITEMS.register("coppergratingstairs", () -> new BlockItem(coppergratingstairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> irongratingstairs_item = ITEMS.register("irongratingstairs", () -> new BlockItem(irongratingstairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> rustygratingstairs_item = ITEMS.register("rustygratingstairs", () -> new BlockItem(rustygratingstairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> steelgratingstairs_item = ITEMS.register("steelgratingstairs", () -> new BlockItem(steelgratingstairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+     */
+
+    public static final RegistryObject<BlockItem> blackhull_item = ITEMS.register("blackhull", () -> new BlockItem(blackhull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> bluehull_item = ITEMS.register("bluehull", () -> new BlockItem(bluehull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> brownhull_item = ITEMS.register("brownhull", () -> new BlockItem(brownhull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> cyanhull_item = ITEMS.register("cyanhull", () -> new BlockItem(cyanhull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> grayhull_item = ITEMS.register("grayhull", () -> new BlockItem(grayhull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> greenhull_item = ITEMS.register("greenhull", () -> new BlockItem(greenhull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> lightbluehull_item = ITEMS.register("lightbluehull", () -> new BlockItem(lightbluehull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> limehull_item = ITEMS.register("limehull", () -> new BlockItem(limehull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> magentahull_item = ITEMS.register("magentahull", () -> new BlockItem(magentahull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> orangehull_item = ITEMS.register("orangehull", () -> new BlockItem(orangehull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> pinkhull_item = ITEMS.register("pinkhull", () -> new BlockItem(pinkhull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> purplehull_item = ITEMS.register("purplehull", () -> new BlockItem(purplehull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> redhull_item = ITEMS.register("redhull", () -> new BlockItem(redhull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> silverhull_item = ITEMS.register("silverhull", () -> new BlockItem(silverhull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> whitehull_item = ITEMS.register("whitehull", () -> new BlockItem(whitehull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> yellowhull_item = ITEMS.register("yellowhull", () -> new BlockItem(yellowhull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+
 }

@@ -74,4 +74,11 @@ public class ItemRegistry
     public static final RegistryObject<BlockItem> whitehull_item = ITEMS.register("whitehull", () -> new BlockItem(whitehull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> yellowhull_item = ITEMS.register("yellowhull", () -> new BlockItem(yellowhull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
 
+    public static final RegistryObject<BlockItem> aluminiumpipe_item = ITEMS.register("aluminiumpipe", () -> new BlockItem(aluminiumpipe.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> castironpipe_item = ITEMS.register("castironpipe", () -> new BlockItem(castironpipe.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> copperpipe_item = ITEMS.register("copperpipe", () -> new BlockItem(copperpipe.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> ironpipe_item = ITEMS.register("ironpipe", () -> new BlockItem(ironpipe.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> rustypipe_item = ITEMS.register("rustypipe", () -> new BlockItem(rustypipe.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> steelpipe_item = ITEMS.register("steelpipe", () -> new BlockItem(steelpipe.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+
 }

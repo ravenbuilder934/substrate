@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "substrate:block/steelpipe_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "substrate:block/steelpipe"
+    },
+    "axis=z": {
+      "model": "substrate:block/steelpipe_horizontal",
+      "x": 90
+    }
+  }
+}

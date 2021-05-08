@@ -71,4 +71,11 @@ public class BlockRegistry
     public static final RegistryObject<Block> silverhull = BLOCKS.register("silverhull", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
     public static final RegistryObject<Block> whitehull = BLOCKS.register("whitehull", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
     public static final RegistryObject<Block> yellowhull = BLOCKS.register("yellowhull", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<RotatedPillarBlock> aluminiumpipe = BLOCKS.register("aluminiumpipe", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<RotatedPillarBlock> castironpipe = BLOCKS.register("castironpipe", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<RotatedPillarBlock> copperpipe = BLOCKS.register("copperpipe", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<RotatedPillarBlock> ironpipe = BLOCKS.register("ironpipe", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<RotatedPillarBlock> rustypipe = BLOCKS.register("rustypipe", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<RotatedPillarBlock> steelpipe = BLOCKS.register("steelpipe", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
 }

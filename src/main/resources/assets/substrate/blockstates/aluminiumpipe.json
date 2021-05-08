@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "substrate:block/aluminiumpipe_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "substrate:block/aluminiumpipe"
+    },
+    "axis=z": {
+      "model": "substrate:block/aluminiumpipe_horizontal",
+      "x": 90
+    }
+  }
+}

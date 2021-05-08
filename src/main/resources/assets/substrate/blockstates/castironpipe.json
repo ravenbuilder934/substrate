@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "substrate:block/castironpipe_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "substrate:block/castironpipe"
+    },
+    "axis=z": {
+      "model": "substrate:block/castironpipe_horizontal",
+      "x": 90
+    }
+  }
+}

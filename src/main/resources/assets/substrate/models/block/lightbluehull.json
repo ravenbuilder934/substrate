@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "substrate:block/hull/hull_lightblue"
+    "all": "substrate:block/hull/hull_light_blue"
   }
 }

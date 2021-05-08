@@ -10,7 +10,7 @@ public final class CreativeTab
         @Override
         public ItemStack makeIcon()
         {
-            return new ItemStack(ItemRegistry.copperbeam_item.get());
+            return new ItemStack(ItemRegistry.copperpipe_item.get());
         }
 
         @Override

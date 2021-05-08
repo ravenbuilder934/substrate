@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab",
   "textures": {
-    "bottom": "substrate:block/tile/tile_rusty_top",
-    "top": "substrate:block/tile/tile_rusty_top",
+    "bottom": "substrate:block/tile/tile_rusty",
+    "top": "substrate:block/tile/tile_rusty",
     "side": "substrate:block/tile/tile_rusty"
   }
 }

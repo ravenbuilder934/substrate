@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column_horizontal",
   "textures": {
-    "end": "substrate:block/tile/tile_castiron_top",
+    "end": "substrate:block/tile/tile_castiron",
     "side": "substrate:block/tile/tile_castiron"
   }
 }

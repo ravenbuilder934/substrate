@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab_top",
   "textures": {
-    "bottom": "substrate:block/tile/tile_castiron_top",
-    "top": "substrate:block/tile/tile_castiron_top",
+    "bottom": "substrate:block/tile/tile_castiron",
+    "top": "substrate:block/tile/tile_castiron",
     "side": "substrate:block/tile/tile_castiron"
   }
 }

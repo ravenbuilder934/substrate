@@ -81,4 +81,10 @@ public class ItemRegistry
     public static final RegistryObject<BlockItem> rustypipe_item = ITEMS.register("rustypipe", () -> new BlockItem(rustypipe.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> steelpipe_item = ITEMS.register("steelpipe", () -> new BlockItem(steelpipe.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
 
+    public static final RegistryObject<BlockItem> aluminiumplate_item = ITEMS.register("aluminiumplate", () -> new BlockItem(aluminiumplate.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> castironplate_item = ITEMS.register("castironplate", () -> new BlockItem(castironplate.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> copperplate_item = ITEMS.register("copperplate", () -> new BlockItem(copperplate.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> ironplate_item = ITEMS.register("ironplate", () -> new BlockItem(ironplate.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> rustyplate_item = ITEMS.register("rustyplate", () -> new BlockItem(rustyplate.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> steelplate_item = ITEMS.register("steelplate", () -> new BlockItem(steelplate.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
 }

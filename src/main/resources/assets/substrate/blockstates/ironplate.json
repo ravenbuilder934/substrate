@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "substrate:block/ironplate_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "substrate:block/ironplate"
+    },
+    "axis=z": {
+      "model": "substrate:block/ironplate_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -78,4 +78,11 @@ public class BlockRegistry
     public static final RegistryObject<RotatedPillarBlock> ironpipe = BLOCKS.register("ironpipe", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
     public static final RegistryObject<RotatedPillarBlock> rustypipe = BLOCKS.register("rustypipe", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
     public static final RegistryObject<RotatedPillarBlock> steelpipe = BLOCKS.register("steelpipe", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<RotatedPillarBlock> aluminiumplate = BLOCKS.register("aluminiumplate", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<RotatedPillarBlock> castironplate = BLOCKS.register("castironplate", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<RotatedPillarBlock> copperplate = BLOCKS.register("copperplate", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<RotatedPillarBlock> ironplate = BLOCKS.register("ironplate", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<RotatedPillarBlock> rustyplate = BLOCKS.register("rustyplate", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<RotatedPillarBlock> steelplate = BLOCKS.register("steelplate", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
 }

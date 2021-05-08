@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "substrate:block/copperplate_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "substrate:block/copperplate"
+    },
+    "axis=z": {
+      "model": "substrate:block/copperplate_horizontal",
+      "x": 90
+    }
+  }
+}

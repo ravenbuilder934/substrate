@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "substrate:block/plate/plate_aluminium_top",
+    "side": "substrate:block/plate/plate_aluminium"
+  }
+}

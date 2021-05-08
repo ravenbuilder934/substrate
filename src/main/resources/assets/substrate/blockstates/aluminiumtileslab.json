@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "substrate:block/aluminiumtileslab"
+    },
+    "type=double": {
+      "model": "substrate:block/aluminiumtile"
+    },
+    "type=top": {
+      "model": "substrate:block/aluminiumtileslab_top"
+    }
+  }
+}

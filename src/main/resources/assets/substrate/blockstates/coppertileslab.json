@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "substrate:block/coppertileslab"
+    },
+    "type=double": {
+      "model": "substrate:block/coppertile"
+    },
+    "type=top": {
+      "model": "substrate:block/coppertileslab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "substrate:block/castirontileslab"
+    },
+    "type=double": {
+      "model": "substrate:block/castirontile"
+    },
+    "type=top": {
+      "model": "substrate:block/castirontileslab_top"
+    }
+  }
+}

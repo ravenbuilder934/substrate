@@ -85,4 +85,29 @@ public class BlockRegistry
     public static final RegistryObject<RotatedPillarBlock> ironplate = BLOCKS.register("ironplate", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
     public static final RegistryObject<RotatedPillarBlock> rustyplate = BLOCKS.register("rustyplate", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
     public static final RegistryObject<RotatedPillarBlock> steelplate = BLOCKS.register("steelplate", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+
+    //scrap goes here
+
+    public static final RegistryObject<RotatedPillarBlock> aluminiumtile = BLOCKS.register("aluminiumtile", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<RotatedPillarBlock> castirontile = BLOCKS.register("castirontile", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<RotatedPillarBlock> coppertile = BLOCKS.register("coppertile", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<RotatedPillarBlock> irontile = BLOCKS.register("irontile", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<RotatedPillarBlock> rustytile = BLOCKS.register("rustytile", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<RotatedPillarBlock> steeltile = BLOCKS.register("steeltile", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
+
+    public static final RegistryObject<SlabBlock> aluminiumtileslab = BLOCKS.register("aluminiumtileslab", () -> new SlabBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<SlabBlock> castirontileslab = BLOCKS.register("castirontileslab", () -> new SlabBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<SlabBlock> coppertileslab = BLOCKS.register("coppertileslab", () -> new SlabBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<SlabBlock> irontileslab = BLOCKS.register("irontileslab", () -> new SlabBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<SlabBlock> rustytileslab = BLOCKS.register("rustytileslab", () -> new SlabBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<SlabBlock> steeltileslab = BLOCKS.register("steeltileslab", () -> new SlabBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+
+    /*
+    public static final RegistryObject<StairsBlock> aluminiumtilestairs = BLOCKS.register("aluminiumtilestairs", () -> new StairsBlock(aluminiumtile.defaultBlockState(), AbstractBlock.Properties.copy(aluminiumtile.get())));
+    public static final RegistryObject<StairsBlock> castirontilestairs = BLOCKS.register("castirontilestairs", () -> new StairsBlock(castirontile.defaultBlockState(), AbstractBlock.Properties.copy(castirontile.get())));
+    public static final RegistryObject<StairsBlock> coppertilestairs = BLOCKS.register("coppertilestairs", () -> new StairsBlock(coppertile.defaultBlockState(), AbstractBlock.Properties.copy(coppertile.get())));
+    public static final RegistryObject<StairsBlock> irontilestairs = BLOCKS.register("irontilestairs", () -> new StairsBlock(irontile.defaultBlockState(), AbstractBlock.Properties.copy(irontile.get())));
+    public static final RegistryObject<StairsBlock> rustytilestairs = BLOCKS.register("rustytilestairs", () -> new StairsBlock(rustytile.defaultBlockState(), AbstractBlock.Properties.copy(rustytile.get())));
+    public static final RegistryObject<StairsBlock> steeltilestairs = BLOCKS.register("steeltilestairs", () -> new StairsBlock(steeltile.defaultBlockState(), AbstractBlock.Properties.copy(steeltile.get())));
+     */
 }

@@ -87,4 +87,29 @@ public class ItemRegistry
     public static final RegistryObject<BlockItem> ironplate_item = ITEMS.register("ironplate", () -> new BlockItem(ironplate.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> rustyplate_item = ITEMS.register("rustyplate", () -> new BlockItem(rustyplate.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> steelplate_item = ITEMS.register("steelplate", () -> new BlockItem(steelplate.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+
+    //scrap goes here
+
+    public static final RegistryObject<BlockItem> aluminiumtile_item = ITEMS.register("aluminiumtile", () -> new BlockItem(aluminiumtile.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> castirontile_item = ITEMS.register("castirontile", () -> new BlockItem(castirontile.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> coppertile_item = ITEMS.register("coppertile", () -> new BlockItem(coppertile.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> irontile_item = ITEMS.register("irontile", () -> new BlockItem(irontile.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> rustytile_item = ITEMS.register("rustytile", () -> new BlockItem(rustytile.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> steeltile_item = ITEMS.register("steeltile", () -> new BlockItem(steeltile.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+
+    public static final RegistryObject<BlockItem> aluminiumtileslab_item = ITEMS.register("aluminiumtileslab", () -> new BlockItem(aluminiumtileslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> castirontileslab_item = ITEMS.register("castirontileslab", () -> new BlockItem(castirontileslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> coppertileslab_item = ITEMS.register("coppertileslab", () -> new BlockItem(coppertileslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> irontileslab_item = ITEMS.register("irontileslab", () -> new BlockItem(irontileslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> rustytileslab_item = ITEMS.register("rustytileslab", () -> new BlockItem(rustytileslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> steeltileslab_item = ITEMS.register("steeltileslab", () -> new BlockItem(steeltileslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+
+    /*
+    public static final RegistryObject<BlockItem> aluminiumtilestairs_item = ITEMS.register("aluminiumtilestairs", () -> new BlockItem(aluminiumtilestairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> castirontilestairs_item = ITEMS.register("castirontilestairs", () -> new BlockItem(castirontilestairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> coppertilestairs_item = ITEMS.register("coppertilestairs", () -> new BlockItem(coppertilestairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> irontilestairs_item = ITEMS.register("irontilestairs", () -> new BlockItem(irontilestairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> rustytilestairs_item = ITEMS.register("rustytilestairs", () -> new BlockItem(rustytilestairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> steeltilestairs_item = ITEMS.register("steeltilestairs", () -> new BlockItem(steeltilestairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+     */
 }

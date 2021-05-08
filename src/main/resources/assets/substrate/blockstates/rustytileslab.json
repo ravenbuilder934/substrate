@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "substrate:block/rustytileslab"
+    },
+    "type=double": {
+      "model": "substrate:block/rustytile"
+    },
+    "type=top": {
+      "model": "substrate:block/rustytileslab_top"
+    }
+  }
+}

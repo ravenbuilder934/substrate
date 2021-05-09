@@ -1,4 +1,4 @@
-package substrate;
+package substrate.registry;
 
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -6,12 +6,14 @@ import net.minecraft.item.TallBlockItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import substrate.CreativeTab;
+import substrate.Substrate;
 
-import static substrate.BlockRegistry.*;
+import static substrate.registry.BlockRegistry.*;
 
 public class ItemRegistry
 {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Util.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Substrate.MOD_ID);
 
     public static final RegistryObject<TallBlockItem> aluminiumdoor_item = ITEMS.register("aluminiumdoor", () -> new TallBlockItem(aluminiumdoor.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<TallBlockItem> castirondoor_item = ITEMS.register("castirondoor", () -> new TallBlockItem(castirondoor.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));

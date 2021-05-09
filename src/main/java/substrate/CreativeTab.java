@@ -2,10 +2,11 @@ package substrate;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import substrate.registry.ItemRegistry;
 
 public final class CreativeTab
 {
-    public static final ItemGroup SUBSTRATE = new ItemGroup(Util.MOD_ID)
+    public static final ItemGroup SUBSTRATE = new ItemGroup(Substrate.MOD_ID)
     {
         @Override
         public ItemStack makeIcon()

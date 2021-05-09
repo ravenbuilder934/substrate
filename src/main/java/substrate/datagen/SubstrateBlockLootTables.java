@@ -3,7 +3,7 @@ package substrate.datagen;
 import net.minecraft.block.Block;
 import net.minecraft.data.loot.BlockLootTables;
 import net.minecraftforge.fml.RegistryObject;
-import substrate.BlockRegistry;
+import substrate.registry.BlockRegistry;
 
 public class SubstrateBlockLootTables extends BlockLootTables
 {

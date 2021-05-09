@@ -18,7 +18,7 @@ public class SubstrateLootTableProvider extends LootTableProvider
 {
     private final List<Pair<Supplier<Consumer<BiConsumer<ResourceLocation, LootTable.Builder>>>, LootParameterSet>> loot_tables = ImmutableList.of(Pair.of(SubstrateBlockLootTables::new, LootParameterSets.BLOCK));
 
-    public SubstrateLootTableProvider (DataGenerator generatorIn)
+    public SubstrateLootTableProvider(DataGenerator generatorIn)
     {
         super(generatorIn);
     }

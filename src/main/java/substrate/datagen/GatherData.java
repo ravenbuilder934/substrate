@@ -12,7 +12,7 @@ public class GatherData
         DataGenerator generator = event.getGenerator();
         ExistingFileHelper helper = event.getExistingFileHelper();
 
-        if(event.includeServer())
+        if (event.includeServer())
         {
             generator.addProvider(new SubstrateLootTableProvider(generator));
         }

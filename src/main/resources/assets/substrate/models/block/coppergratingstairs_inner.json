@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "substrate:block/grating/grating_copper",
+    "top": "substrate:block/grating/grating_copper",
+    "side": "substrate:block/grating/grating_copper"
+  }
+}

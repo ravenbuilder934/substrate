@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "substrate:block/tile/tile_steel",
+    "top": "substrate:block/tile/tile_steel",
+    "side": "substrate:block/tile/tile_steel"
+  }
+}

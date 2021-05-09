@@ -1,16 +1,7 @@
 {
   "variants": {
-    "axis=x": {
-      "model": "substrate:block/steeltile_horizontal",
-      "x": 90,
-      "y": 90
-    },
-    "axis=y": {
+    "": {
       "model": "substrate:block/steeltile"
-    },
-    "axis=z": {
-      "model": "substrate:block/steeltile_horizontal",
-      "x": 90
     }
   }
 }

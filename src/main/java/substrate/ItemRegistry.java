@@ -48,14 +48,12 @@ public class ItemRegistry
     public static final RegistryObject<BlockItem> rustygratingslab_item = ITEMS.register("rustygratingslab", () -> new BlockItem(rustygratingslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> steelgratingslab_item = ITEMS.register("steelgratingslab", () -> new BlockItem(steelgratingslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
 
-    /*
     public static final RegistryObject<BlockItem> aluminiumgratingstairs_item = ITEMS.register("aluminiumgratingstairs", () -> new BlockItem(aluminiumgratingstairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> castirongratingstairs_item = ITEMS.register("castirongratingstairs", () -> new BlockItem(castirongratingstairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> coppergratingstairs_item = ITEMS.register("coppergratingstairs", () -> new BlockItem(coppergratingstairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> irongratingstairs_item = ITEMS.register("irongratingstairs", () -> new BlockItem(irongratingstairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> rustygratingstairs_item = ITEMS.register("rustygratingstairs", () -> new BlockItem(rustygratingstairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> steelgratingstairs_item = ITEMS.register("steelgratingstairs", () -> new BlockItem(steelgratingstairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
-     */
 
     public static final RegistryObject<BlockItem> blackhull_item = ITEMS.register("blackhull", () -> new BlockItem(blackhull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> bluehull_item = ITEMS.register("bluehull", () -> new BlockItem(bluehull.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
@@ -104,12 +102,10 @@ public class ItemRegistry
     public static final RegistryObject<BlockItem> rustytileslab_item = ITEMS.register("rustytileslab", () -> new BlockItem(rustytileslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> steeltileslab_item = ITEMS.register("steeltileslab", () -> new BlockItem(steeltileslab.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
 
-    /*
     public static final RegistryObject<BlockItem> aluminiumtilestairs_item = ITEMS.register("aluminiumtilestairs", () -> new BlockItem(aluminiumtilestairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> castirontilestairs_item = ITEMS.register("castirontilestairs", () -> new BlockItem(castirontilestairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> coppertilestairs_item = ITEMS.register("coppertilestairs", () -> new BlockItem(coppertilestairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> irontilestairs_item = ITEMS.register("irontilestairs", () -> new BlockItem(irontilestairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> rustytilestairs_item = ITEMS.register("rustytilestairs", () -> new BlockItem(rustytilestairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> steeltilestairs_item = ITEMS.register("steeltilestairs", () -> new BlockItem(steeltilestairs.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
-     */
 }

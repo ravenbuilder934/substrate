@@ -1,16 +1,7 @@
 {
   "variants": {
-    "axis=x": {
-      "model": "substrate:block/aluminiumtile_horizontal",
-      "x": 90,
-      "y": 90
-    },
-    "axis=y": {
+    "": {
       "model": "substrate:block/aluminiumtile"
-    },
-    "axis=z": {
-      "model": "substrate:block/aluminiumtile_horizontal",
-      "x": 90
     }
   }
 }

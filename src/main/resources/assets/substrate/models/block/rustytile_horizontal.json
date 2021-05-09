@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column_horizontal",
-  "textures": {
-    "end": "substrate:block/tile/tile_rusty",
-    "side": "substrate:block/tile/tile_rusty"
-  }
-}

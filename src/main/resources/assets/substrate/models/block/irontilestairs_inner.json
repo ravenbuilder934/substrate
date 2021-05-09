@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "substrate:block/tile/tile_iron",
+    "top": "substrate:block/tile/tile_iron",
+    "side": "substrate:block/tile/tile_iron"
+  }
+}

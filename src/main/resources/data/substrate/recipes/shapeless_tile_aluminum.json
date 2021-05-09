@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "substrate:aluminiumbeam"
+    }
+  ],
+  "result": {
+    "item": "substrate:aluminiumtile"
+  }
+}

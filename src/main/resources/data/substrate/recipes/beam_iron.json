@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "substrate:ironplate"
+    }
+  ],
+  "result": {
+    "item": "substrate:ironbeam"
+  }
+}

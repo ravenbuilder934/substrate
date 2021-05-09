@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "substrate:irontile"
+    }
+  },
+  "result": {
+    "item": "substrate:irontilestairs",
+    "count": 8
+  }
+}

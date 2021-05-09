@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "substrate:aluminiumtile"
+    }
+  },
+  "result": {
+    "item": "substrate:aluminiumdoor",
+    "count": 3
+  }
+}

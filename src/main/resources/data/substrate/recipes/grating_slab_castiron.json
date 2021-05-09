@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "substrate:castirongrating"
+    }
+  },
+  "result": {
+    "item": "substrate:castirongratingslab",
+    "count": 6
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "substrate:rustytile"
+    }
+  ],
+  "result": {
+    "item": "substrate:rustygrating"
+  }
+}

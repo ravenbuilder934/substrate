@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "substrate:steelgrating"
+    }
+  },
+  "result": {
+    "item": "substrate:steelgratingslab",
+    "count": 6
+  }
+}

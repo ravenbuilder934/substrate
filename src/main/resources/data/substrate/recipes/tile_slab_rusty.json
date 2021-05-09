@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "substrate:rustytile"
+    }
+  },
+  "result": {
+    "item": "substrate:rustytileslab",
+    "count": 6
+  }
+}

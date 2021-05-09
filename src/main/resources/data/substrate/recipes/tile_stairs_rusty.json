@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "substrate:rustytile"
+    }
+  },
+  "result": {
+    "item": "substrate:rustytilestairs",
+    "count": 8
+  }
+}

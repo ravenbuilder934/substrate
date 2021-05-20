@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/stairs",
   "textures": {
-    "bottom": "substrate:block/grating/grating_rusty",
-    "top": "substrate:block/grating/grating_rusty",
+    "bottom": "substrate:block/grating/grating_rusty_top",
+    "top": "substrate:block/grating/grating_rusty_top",
     "side": "substrate:block/grating/grating_rusty"
   }
 }

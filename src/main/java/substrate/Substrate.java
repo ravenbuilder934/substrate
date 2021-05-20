@@ -22,6 +22,7 @@ public class Substrate
     public Substrate()
     {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(GatherData::init);
         ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
@@ -29,7 +30,7 @@ public class Substrate
 
     @OnlyIn(Dist.CLIENT)
     @SubscribeEvent
-    public static void doClientStuff(final FMLClientSetupEvent event)
+    public void doClientStuff(final FMLClientSetupEvent event)
     {
         RenderTypeLookup.setRenderLayer(BlockRegistry.aluminiumtrapdoor.get(), RenderType.translucent());
         RenderTypeLookup.setRenderLayer(BlockRegistry.castirontrapdoor.get(), RenderType.translucent());

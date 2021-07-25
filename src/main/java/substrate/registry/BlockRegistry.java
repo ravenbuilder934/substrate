@@ -88,7 +88,22 @@ public class BlockRegistry
     public static final RegistryObject<RotatedPillarBlock> rustyplate = BLOCKS.register("rustyplate", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
     public static final RegistryObject<RotatedPillarBlock> steelplate = BLOCKS.register("steelplate", () -> new RotatedPillarBlock(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(6.0F).sound(SoundType.METAL)));
 
-    //scrap goes here
+    public static final RegistryObject<Block> scrapzero = BLOCKS.register("scrapzero", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> scrapone = BLOCKS.register("scrapone", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> scraptwo = BLOCKS.register("scraptwo", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> scrapthree = BLOCKS.register("scrapthree", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> scrapfour = BLOCKS.register("scrapfour", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> scrapfive = BLOCKS.register("scrapfive", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> scrapsix = BLOCKS.register("scrapsix", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> scrapseven = BLOCKS.register("scrapseven", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> scrapeight = BLOCKS.register("scrapeight", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> scrapnine = BLOCKS.register("scrapnine", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> scrapten = BLOCKS.register("scrapten", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> scrapeleven = BLOCKS.register("scrapeleven", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> scraptwelve = BLOCKS.register("scraptwelve", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> scrapthirteen = BLOCKS.register("scrapthirteen", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> scrapfourteen = BLOCKS.register("scrapfourteen", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> scrapfifteen = BLOCKS.register("scrapfifteen", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
 
     public static final RegistryObject<Block> aluminiumtile = BLOCKS.register("aluminiumtile", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));
     public static final RegistryObject<Block> castirontile = BLOCKS.register("castirontile", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL)));

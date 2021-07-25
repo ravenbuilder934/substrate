@@ -88,7 +88,22 @@ public class ItemRegistry
     public static final RegistryObject<BlockItem> rustyplate_item = ITEMS.register("rustyplate", () -> new BlockItem(rustyplate.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> steelplate_item = ITEMS.register("steelplate", () -> new BlockItem(steelplate.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
 
-    //scrap goes here
+    public static final RegistryObject<BlockItem> scrapzero_item = ITEMS.register("scrapzero", () -> new BlockItem(scrapzero.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> scrapone_item = ITEMS.register("scrapone", () -> new BlockItem(scrapone.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> scraptwo_item = ITEMS.register("scraptwo", () -> new BlockItem(scraptwo.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> scrapthree_item = ITEMS.register("scrapthree", () -> new BlockItem(scrapthree.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> scrapfour_item = ITEMS.register("scrapfour", () -> new BlockItem(scrapfour.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> scrapfive_item = ITEMS.register("scrapfive", () -> new BlockItem(scrapfive.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> scrapsix_item = ITEMS.register("scrapsix", () -> new BlockItem(scrapsix.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> scrapseven_item = ITEMS.register("scrapseven", () -> new BlockItem(scrapseven.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> scrapeight_item = ITEMS.register("scrapeight", () -> new BlockItem(scrapeight.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> scrapnine_item = ITEMS.register("scrapnine", () -> new BlockItem(scrapnine.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> scrapten_item = ITEMS.register("scrapten", () -> new BlockItem(scrapten.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> scrapeleven_item = ITEMS.register("scrapeleven", () -> new BlockItem(scrapeleven.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> scraptwelve_item = ITEMS.register("scraptwelve", () -> new BlockItem(scraptwelve.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> scrapthirteen_item = ITEMS.register("scrapthirteen", () -> new BlockItem(scrapthirteen.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> scrapfourteen_item = ITEMS.register("scrapfourteen", () -> new BlockItem(scrapfourteen.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
+    public static final RegistryObject<BlockItem> scrapfifteen_item = ITEMS.register("scrapfifteen", () -> new BlockItem(scrapfifteen.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
 
     public static final RegistryObject<BlockItem> aluminiumtile_item = ITEMS.register("aluminiumtile", () -> new BlockItem(aluminiumtile.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));
     public static final RegistryObject<BlockItem> castirontile_item = ITEMS.register("castirontile", () -> new BlockItem(castirontile.get(), new Item.Properties().tab(CreativeTab.SUBSTRATE)));

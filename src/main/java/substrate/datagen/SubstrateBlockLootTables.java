@@ -83,6 +83,23 @@ public class SubstrateBlockLootTables extends BlockLootTables
         dropSelf(BlockRegistry.rustyplate.get());
         dropSelf(BlockRegistry.steelplate.get());
 
+        dropSelf(BlockRegistry.scrapzero.get());
+        dropSelf(BlockRegistry.scrapone.get());
+        dropSelf(BlockRegistry.scraptwo.get());
+        dropSelf(BlockRegistry.scrapthree.get());
+        dropSelf(BlockRegistry.scrapfour.get());
+        dropSelf(BlockRegistry.scrapfive.get());
+        dropSelf(BlockRegistry.scrapsix.get());
+        dropSelf(BlockRegistry.scrapseven.get());
+        dropSelf(BlockRegistry.scrapeight.get());
+        dropSelf(BlockRegistry.scrapnine.get());
+        dropSelf(BlockRegistry.scrapten.get());
+        dropSelf(BlockRegistry.scrapeleven.get());
+        dropSelf(BlockRegistry.scraptwelve.get());
+        dropSelf(BlockRegistry.scrapthirteen.get());
+        dropSelf(BlockRegistry.scrapfourteen.get());
+        dropSelf(BlockRegistry.scrapfifteen.get());
+
         dropSelf(BlockRegistry.aluminiumtile.get());
         dropSelf(BlockRegistry.castirontile.get());
         dropSelf(BlockRegistry.coppertile.get());

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "substrate:block/scrap/scrap_8"
+  }
+}
